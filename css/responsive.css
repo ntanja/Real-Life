@@ -1,0 +1,452 @@
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .navbar-nav > li > a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .navbar-nav {
+        padding-top: 30px;
+    }
+    .navbar-right {
+        margin-right: -30px;
+    }
+    .toggle-light{
+        margin-left: 0;
+    }
+    /**************************ABOUT US PAGE*****************/
+    .team {
+        margin: 40px 0;
+    }
+    .team h2{
+        margin-bottom: 50px;
+    }
+    .team h3{
+        margin: 20px 0;
+    }
+    .goals{
+        margin: 30px 0;
+    }
+    .goals p{
+        margin: 20px 0;
+    }
+    .contact-hover {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    footer{
+        padding: 10px 0;
+    }
+    footer .right-menu{
+        padding-top: 45px;
+    }
+    footer .bottom-list li{
+        font-size: 14px;
+    }
+    footer .social{
+        padding-top: 15px;
+        text-align: right;
+    }
+    /**************************DONATE PAGE*****************/
+    .donate h2{
+        font-size: 30px;
+    }
+    .donate h3{
+        font-size: 24px;
+    }
+    .paypall p, .paypall img{
+        display: inline-block;
+    }
+    .paypall p{
+        padding-left: 70px;
+        padding-right: 15px;
+    }
+    /**************************EDUCATION PAGE*****************/
+    .education .carbon{
+        margin: 50px 0;
+    }
+    .carbon h1{
+        margin-bottom: 30px;
+    }
+    /**************************MEDIA PAGE*****************/
+    #amazingslider-1 h1{
+        top: 15%;
+    }
+    .amazingslider-nav-1{
+        margin-top: 120px !important;
+    }
+    .amazingslider-bullet-playvideo-1{
+    margin-left: 0 !important;
+}
+    /**************************REAL LIFE PAGE*****************/
+    /****section 'mission'****/
+    .mission{
+        margin-top: 50px;
+        position: relative;
+        background: url("style-images/frame.png")no-repeat center center;
+        background-size: 45% 35%;
+    }
+    .frame{
+        display: block;
+        position: absolute;
+        top: 36%;
+        left: 35%;
+        z-index: 100;
+    }
+    .frame img{
+        width: 60%;
+    }
+    .vision {
+        margin-top: 60px;
+    }
+    .vision h1 {
+        margin-top: 150px;
+    }
+    /****section 'chart'****/
+    /****carousel****/
+    #chart-slider{
+        padding-bottom: 60px;
+    }
+    .divas-navigation span.divas-prev {
+        left: 1.2em;
+        top: -0.8em;
+        height: 70px;
+    }
+    .divas-navigation span.divas-next {
+        right: 1.2em;
+        top: -0.8em;
+        height: 70px;
+    }
+    .divas-hover-l, .divas-hover-r{
+        height: 80%;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .nav > li > a {
+        font-size: 16px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        margin-top: 35px;
+    }
+    .toggle-light{
+        width: 70px;
+        height: 30px;
+    }
+    .live-stream{
+        margin-left: 80px;
+    }
+    .navbar-nav {
+        padding-top: 0;
+    }
+    /**************************ABOUT US PAGE*****************/
+    .team {
+        margin-bottom: 70px;
+    }
+    .team h2{
+        padding: 0 50px;
+        font-size: 30px;
+    }
+    .team figure{
+        max-height: 324px;
+        max-width: 332px;
+    }
+    .team h3{
+        margin: 45px 0 40px;
+    }
+    .team p{
+        padding: 0 40px;
+        margin-bottom: 50px;
+    }
+    .goals {
+        margin: 50px 0;
+    }
+    .goals p{
+        margin: 40px 0;
+    }
+    footer .social a span{
+        background: #a7d650;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 13px;
+        color: #1a2c1b;
+        font-size: 24px;
+    }
+    /**************************DONATE PAGE*****************/
+    .donate h1{
+        margin-top: 80px;
+        margin-bottom: 25px;
+    }
+    .donate h3{
+        margin-top: 20px;
+    }
+    .donate p{
+        margin-top: 45px;
+        margin-bottom: 75px;
+    }
+    .pay{
+        margin: 100px 0;
+    }
+    /**************************EDUCATION PAGE*****************/
+    .education .carbon{
+        margin-top: 85px;
+        margin-bottom: 95px;
+    }
+    /**************************MEDIA PAGE*****************/
+    #amazingslider-1 h1{
+        top: 30%;
+    }
+    .amazingslider-nav-1{
+        margin-top: 140px !important;
+    }
+    .news{
+        margin: 85px 0 65px;
+    }
+    .news h1{
+        margin-bottom: 60px;
+    }
+    .news h4{
+        margin: 20px 0 45px;
+    }
+    .pagination{
+        margin-top: 55px;
+    }
+    /**************************REAL LIFE PAGE*****************/
+    /****section -'mission'****/
+    .hands .col-sm-5{
+        margin-top: 25px;
+    }
+    .hands h1{
+        margin-bottom: 30px;
+    }
+    .frame img {
+        width: 75%;
+    }
+    .hands ul{
+        padding-right: 100px;
+    }
+    .vision p,
+    .vision h1,
+    .vision a{
+        padding-left: 100px;
+    }
+    .vision h1{
+        margin-top: 180px;
+    }
+
+    /****section 'latest-news'****/
+    .latest-news .border{
+        padding: 0;
+    }
+    .latest-news .col-sm-6{
+        padding: 0;
+    }
+    .latest-news .climate{
+        padding-left: 15px;
+    }
+    .latest-news .climate h4{
+        margin: 40px 0 65px;
+    }
+    .latest-news .climate p{
+        margin-bottom: 30px;
+        line-height: 1.7;
+    }
+    /****section 'chart'****/
+    .chart h2 {
+        margin-top: 130px;
+        margin-bottom: 100px;
+    }
+    /****carousel****/
+    #chart-slider{
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+    .divas-navigation span.divas-prev {
+        left: 1.5em;
+        top: -1.2em;
+        height: 100px;
+    }
+    .divas-navigation span.divas-next {
+        right: 1.5em;
+        top: -1.2em;
+        height: 100px;
+    }
+    .divas-hover-l, .divas-hover-r{
+        height: 76%;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    body p{
+        font-size: 16px;
+    }
+    .nav > li > a {
+        font-size: 18px;
+    }
+    .live-stream{
+        margin-left: 200px;
+    }
+    /**************************ABOUT US PAGE*****************/
+    .about figure{
+        height: 520px;
+    }
+    .team {
+        margin: 95px 0 100px;
+    }
+    .team h2{
+        margin-bottom: 130px;
+        font-size: 36px;
+    }
+    .team h3{
+        font-size: 30px;
+    }
+    .team p{
+        padding: 0 100px;
+    }
+    .fish{
+        margin-bottom: 60px;
+    }
+    .fish-real{
+        margin-bottom: 0;
+    }
+    .goals {
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .goals h1{
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    .goals div.row{
+        margin-top: 15px;
+    }
+    .contact a{
+        width: 340px;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    footer .right-menu a {
+        font-size: 18px;
+    }
+    /**************************DONATE PAGE*****************/
+    .donate h1{
+        margin-top: 125px;
+        margin-bottom: 55px;
+        font-size: 48px;
+    }
+    .donate h2{
+        font-size: 36px;
+    }
+    .donate h3{
+        margin-top: 35px;
+        font-size: 30px;
+    }
+    .donate p{
+        margin-top: 65px;
+        margin-bottom: 95px;
+    }
+    .pay .gray{
+        padding: 30px 0 150px;
+    }
+    .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+        height: 72px;
+    }
+    .price, .lead p {
+        font-size: 24px;
+        line-height: 60px;
+    }
+    .price-form label {
+        line-height: 60px;
+        font-size: 24px;
+    }
+    .price-form {
+        margin-bottom: 10px;
+        padding: 0 20px 50px;
+        margin-top: -30px;
+    }
+    .price-form .form-group {
+        height: 50px;
+    }
+    /**************************EDUCATION PAGE*****************/
+    .education .carbon{
+        margin-bottom: 130px;
+    }
+    .carbon h1{
+        margin-bottom: 90px;
+    }
+    /**************************MEDIA PAGE*****************/
+    #amazingslider-1 h1{
+        top: 40%;
+        font-size: 48px;
+    }
+    .amazingslider-nav-1{
+        margin-top: 200px !important;
+    }
+    .amazingslider-nav-container-1{
+        margin-left: -42px;
+    }
+    .galery h1{
+        margin-bottom: 100px;
+    }
+    .galery img{
+        margin-bottom: 45px;
+    }
+    .news{
+        margin: 125px 0 65px;
+    }
+    .news h1{
+        margin-bottom: 85px;
+        font-size: 48px;
+    }
+    .news h4{
+        margin: 20px 0 65px;
+    }
+    /**************************REAL LIFE PAGE*****************/
+    /****section -'mission'****/
+    .mission{
+        margin-top: 160px;
+    }
+    .mission {
+        background-size: 50% 35%;
+    }
+    .frame{
+        top: 37%;
+        left: 35%;
+    }
+    .frame img {
+        width: 90%;
+    }
+    .hands h1 {
+        margin-top: 50px;
+    }
+    .vision h1{
+        margin-top: 270px;
+    }
+    #vision{
+        left: -40%;
+        top: 10%;
+    }
+    #mission{
+        top: 20%;
+        left: -10%;
+    }
+    /****section 'chart'****/
+    /****carousel****/
+    .divas-navigation span.divas-prev {
+        left: 1.5em;
+        top: -2.5em;
+        height: 160px;
+    }
+    .divas-navigation span.divas-next {
+        right: 1.5em;
+        top: -2.5em;
+        height: 160px;
+    }
+    .divas-hover-l, .divas-hover-r{
+        height: 80%;
+    }
+}
